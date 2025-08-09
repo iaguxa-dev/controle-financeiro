@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5 !important;
+  color: #333 !important;
+  line-height: 1.6;
+  min-height: 100vh !important;
+}
+
+#root {
+  min-height: 100vh !important;
+  background-color: #f5f5f5 !important;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+}
+
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+}
+
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: white;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.dashboard-card {
+  margin-bottom: 16px;
+}
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.import-instructions {
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.import-instructions h4 {
+  color: #389e0d;
+  margin-bottom: 8px;
+}
+
+.import-instructions ul {
+  margin-left: 20px;
+}
+
+.import-instructions li {
+  margin-bottom: 4px;
+  color: #52c41a;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+  
+  .login-left {
+    min-height: 40vh;
+  }
+  
+  .login-right {
+    min-height: 60vh;
+  }
+  
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+}
+
+.ant-statistic-title {
+  font-weight: 500;
+}
+
+.ant-statistic-content-value {
+  font-weight: 600;
+}

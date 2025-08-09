@@ -1,0 +1,1 @@
+{"version":3,"file":"create-fatura-batch.dto.js","sourceRoot":"","sources":["../../../src/faturas/dto/create-fatura-batch.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAA0D;AAC1D,yDAAyC;AACzC,2DAAsD;AAEtD,MAAa,oBAAoB;CAKhC;AALD,oDAKC;AADC;IAHC,IAAA,yBAAO,GAAE;IACT,IAAA,gCAAc,EAAC,EAAE,IAAI,EAAE,IAAI,EAAE,CAAC;IAC9B,IAAA,wBAAI,EAAC,GAAG,EAAE,CAAC,mCAAe,CAAC;;qDACD"}
